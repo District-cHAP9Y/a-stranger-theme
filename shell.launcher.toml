@@ -1,0 +1,6 @@
+background = "#050007"
+text = "#e49800"
+border = "#3d0000"
+selected-text = "#ff0808"
+selected-border = "#f00f40"
+scrim = "#050007"

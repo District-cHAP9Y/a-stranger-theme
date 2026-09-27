@@ -1,0 +1,37 @@
+mode = "dark"
+
+# Stranger Themes: amber CRT text in a red-neon Upside Down. Purple is the anomaly.
+
+accent = "#f00f40"
+selection = "#450045"
+muted = "#4a4a00"
+
+background = "#050007"
+dark_background = "#030005"
+darker_background = "#020003"
+lighter_background = "#110014"
+
+foreground = "#e49800"
+dark_foreground = "#8a5c00"      # invented dim-amber; only feeds generated nvim/btop tpl — tweak to taste
+light_foreground = "#ffc34c"
+bright_foreground = "#f0f0f0"
+
+hyprland_active_border = "rgba(FF000080) rgba(F00F404d) 315deg"
+hyprland_inactive_border = "rgba(42005c1a) rgba(00000080) 315deg"
+
+# ANSI slots preserved exactly from v1 "Amber Glow" terminals (intentional swaps):
+red = "#9100eb"
+yellow = "#d0d050"
+orange = "#ffc34c"               # new 4.x key, no v1 equivalent; in-palette pick
+green = "#008000"
+cyan = "#e49800"
+blue = "#ffc34c"
+magenta = "#00a9cb"
+brown = "#4a2a00"                # new 4.x key; in-palette pick
+
+bright_red = "#b840ff"
+bright_yellow = "#f0f070"
+bright_green = "#00bf00"
+bright_cyan = "#7399b4"
+bright_blue = "#4040ff"
+bright_magenta = "#bf00bf"
