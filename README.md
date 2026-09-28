@@ -13,7 +13,7 @@ The original plan was to share this theme in the old .conf format when the last 
 >
 > **Meaning:** custom window animations, gaps, borders, rounding, glass terminals, and Amber Glow Neovim. There are two install paths. Use **Exact desktop** if you came here for that look. The website one-liner only paints the most basic colors. That is an Omarchy one-line install command rule, not a cut-down theme.
 
-## Exact desktop (trusted copy or symlink)
+## Exact desktop (trusted copy)
 
 For those who want the exact theme I designed for myself, here are new-to-linux friendly steps: open a terminal, paste each block, then Enter. For fun imagine Murray's voice going forward.
 
@@ -45,23 +45,15 @@ mkdir -p ~/.config/omarchy/themes/a-stranger-theme
 
 ```bash
 rsync -a --exclude '.git' ~/Downloads/a-stranger-theme/ ~/.config/omarchy/themes/a-stranger-theme/
+
 ```
-CONGRATS - done.
-<br>
 
 **Check:** this must print `No such file or directory`:
 
 ```bash
 ls ~/.config/omarchy/themes/a-stranger-theme/.git
 ```
-
-**Optional instead of copy:** if you want one folder forever, symlink the library copy:
-
-```bash
-ln -s ~/Downloads/a-stranger-theme ~/.config/omarchy/themes/a-stranger-theme
-```
-
-A symlink is also treated as your theme by the way, neat right. Next.
+<br>
 
 ### 3. Turn it on
 
@@ -69,9 +61,8 @@ A symlink is also treated as your theme by the way, neat right. Next.
 omarchy theme set a-stranger-theme
 ```
 
-Or pick **A Stranger Theme** in the Omarchy theme list.
-
-You should get: gaps 6, border size 3, rounding 13, shutter / slidefade window motion, terminal opacity 0.86, Amber Glow Neovim. Wallpapers are the seven story stills in `backgrounds/`.
+> [!IMPORTANT]
+> **You're done.** Look at your desktop. You should see gaps 6, border size 3, rounding 13, shutter / slidefade window motion, terminal opacity 0.86, and Amber Glow Neovim. Wallpapers are the seven story stills in `backgrounds/`.
 
 Do **not** run `omarchy-theme-install` on this path. Do **not** delete `.git` inside `~/Downloads/a-stranger-theme`.
 
@@ -91,6 +82,11 @@ That installer names the folder `a-stranger`. For the real screenshot look, use 
 > Stock Omarchy currently cements the status-bar hover icons color (recording, dictate, night light, DND, stay awake, reminders) to an active theme as bar text at 45% opacity. To match the color I designed, or to tweak that yourself, follow [bar-hover-icons.md](bar-hover-icons.md). That restyle is a local plugin clone: undo it before switching themes. The durable fix is an Omarchy theme key for inactive indicator color.
 
 Feel free to run all that jazz by your favorite llm agent if you must. Your welcome
+
+
+![Murray](murray.webp)
+
+Now get outta here
 
 ### License
 MIT
