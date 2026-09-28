@@ -41,8 +41,13 @@ Then copy:
 
 ```bash
 mkdir -p ~/.config/omarchy/themes/a-stranger-theme
+```
+
+```bash
 rsync -a --exclude '.git' ~/Downloads/a-stranger-theme/ ~/.config/omarchy/themes/a-stranger-theme/
 ```
+CONGRATS - done.
+<br>
 
 **Check:** this must print `No such file or directory`:
 
