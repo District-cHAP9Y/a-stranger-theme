@@ -63,6 +63,8 @@ omarchy theme set a-stranger-theme
 
 > [!IMPORTANT]
 > **You're done.** Look at your desktop. You should see gaps 6, border size 3, rounding 13, shutter / slidefade window motion, terminal opacity 0.86, and Amber Glow Neovim. Wallpapers are the seven story stills in `backgrounds/`.
+>
+> **NOTE** as of 2026-09-27 the vscode colors will be polished. Some colors didn't translate (parens, keywords) may just do Open VSX
 
 Do **not** run `omarchy-theme-install` on this path. Do **not** delete `.git` inside `~/Downloads/a-stranger-theme`.
 
