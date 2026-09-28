@@ -2,7 +2,7 @@
 
 **Theme:** A Stranger Theme
 
-Omarchy 4.x has no theme key for the status-bar hover icons (screen recording, dictate, night light, DND, stay awake, reminders). Those icons sit just left of the clock. Stock Omarchy paints them as **bar text at 45% opacity**, so with this theme they look like faded red and stuck there.
+Omarchy 4.x has no theme key for the status-bar hover icons (screen recording, dictate, night light, DND, stay awake, reminders). Those icons sit just left of the clock. Stock Omarchy paints them as **bar text at 45% opacity**, so with this theme they look like faded red.
 
 The theme uses steely blue **`#7399b4`** at full strength instead. That color cannot ship inside the theme. Each user applies it once on their machine.
 
